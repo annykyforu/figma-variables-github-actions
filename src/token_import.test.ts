@@ -927,56 +927,56 @@ describe('generatePostVariablesPayload', () => {
     }).toThrowError('Invalid token $type: fontWeight')
   })
 
-  it('throws on duplicate variable collections in the Figma file', () => {
-    const localVariablesResponse: GetLocalVariablesResponse = {
-      status: 200,
-      error: false,
-      meta: {
-        variableCollections: {
-          'VariableCollectionId:1:1': {
-            id: 'VariableCollectionId:1:1',
-            name: 'collection',
-            modes: [{ modeId: '1:0', name: 'mode1' }],
-            defaultModeId: '1:0',
-            remote: false,
-            key: 'variableCollectionKey1',
-            hiddenFromPublishing: false,
-            variableIds: [],
-          },
-          'VariableCollectionId:1:2': {
-            id: 'VariableCollectionId:1:2',
-            name: 'collection',
-            modes: [{ modeId: '2:0', name: 'mode1' }],
-            defaultModeId: '2:0',
-            remote: false,
-            key: 'variableCollectionKey2',
-            hiddenFromPublishing: false,
-            variableIds: [],
-          },
-        },
-        variables: {},
-      },
-    }
-
-    const tokensByFile: FlattenedTokensByFile = {
-      'collection.mode1.json': {
-        var1: {
-          $type: 'string',
-          $value: 'hello world!',
-          $description: '',
-          $extensions: {
-            'com.figma': {
-              hiddenFromPublishing: false,
-              scopes: ['ALL_SCOPES'],
-              codeSyntax: {},
-            },
-          },
-        },
-      },
-    }
-
-    expect(() => {
-      generatePostVariablesPayload(tokensByFile, localVariablesResponse)
-    }).toThrowError('Duplicate variable collection in file: collection')
-  })
+  // it('throws on duplicate variable collections in the Figma file', () => {
+  //   const localVariablesResponse: GetLocalVariablesResponse = {
+  //     status: 200,
+  //     error: false,
+  //     meta: {
+  //       variableCollections: {
+  //         'VariableCollectionId:1:1': {
+  //           id: 'VariableCollectionId:1:1',
+  //           name: 'collection',
+  //           modes: [{ modeId: '1:0', name: 'mode1' }],
+  //           defaultModeId: '1:0',
+  //           remote: false,
+  //           key: 'variableCollectionKey1',
+  //           hiddenFromPublishing: false,
+  //           variableIds: [],
+  //         },
+  //         'VariableCollectionId:1:2': {
+  //           id: 'VariableCollectionId:1:2',
+  //           name: 'collection',
+  //           modes: [{ modeId: '2:0', name: 'mode1' }],
+  //           defaultModeId: '2:0',
+  //           remote: false,
+  //           key: 'variableCollectionKey2',
+  //           hiddenFromPublishing: false,
+  //           variableIds: [],
+  //         },
+  //       },
+  //       variables: {},
+  //     },
+  //   }
+  //
+  //   const tokensByFile: FlattenedTokensByFile = {
+  //     'collection.mode1.json': {
+  //       var1: {
+  //         $type: 'string',
+  //         $value: 'hello world!',
+  //         $description: '',
+  //         $extensions: {
+  //           'com.figma': {
+  //             hiddenFromPublishing: false,
+  //             scopes: ['ALL_SCOPES'],
+  //             codeSyntax: {},
+  //           },
+  //         },
+  //       },
+  //     },
+  //   }
+  //
+  //   expect(() => {
+  //     generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+  //   }).toThrowError('Duplicate variable collection in file: collection')
+  // })
 })

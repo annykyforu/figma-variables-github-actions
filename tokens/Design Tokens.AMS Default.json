@@ -772,20 +772,6 @@
       }
     },
     "Controls": {
-      "active": {
-        "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
-        "$description": "for all (selection) controls",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
       "hover": {
         "$type": "color",
         "$value": "{Color.Blue (Primary).blue-600}",

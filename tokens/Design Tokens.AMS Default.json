@@ -1,21 +1,6 @@
 {
   "Colors": {
     "Badge": {
-      "badge-primary": {
-        "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
       "badge-secondary": {
         "$type": "color",
         "$value": "{Color.Blue (Primary).blue-700}",

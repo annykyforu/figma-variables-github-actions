@@ -803,7 +803,7 @@
     "Controls": {
       "active": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$value": "{Color.Danger.red-300}",
         "$description": "for all (selection) controls",
         "$extensions": {
           "com.figma": {

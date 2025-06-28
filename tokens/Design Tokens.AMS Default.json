@@ -528,20 +528,6 @@
           }
         }
       },
-      "border-medium": {
-        "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-200}",
-        "$description": "for borders needed to enhance accessibility (eg. notifications)",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
       "border-light": {
         "$type": "color",
         "$value": "{Color.Gray (Secondary).gray-100}",

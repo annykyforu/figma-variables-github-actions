@@ -3,7 +3,7 @@
     "Badge": {
       "badge-primary": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$value": "{Color.Primary.blue-500}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -18,7 +18,7 @@
       },
       "badge-secondary": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-700}",
+        "$value": "{Color.Primary.blue-700}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -33,7 +33,7 @@
       },
       "badge-tertiary": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-100}",
+        "$value": "{Color.Secondary.gray-100}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -47,7 +47,7 @@
       },
       "badge-icon-fill": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-600}",
+        "$value": "{Color.Secondary.gray-600}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -145,50 +145,6 @@
           }
         }
       },
-      "Warning": {
-        "badge-warning-bg": {
-          "$type": "color",
-          "$value": "{Color.Warning.yellow-100}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {}
-            }
-          }
-        },
-        "badge-warning-icon": {
-          "$type": "color",
-          "$value": "{Color.Warning.yellow-800}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {}
-            }
-          }
-        },
-        "badge-warning-text": {
-          "$type": "color",
-          "$value": "{Color.Warning.yellow-800}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {}
-            }
-          }
-        }
-      },
       "Danger": {
         "badge-danger-bg": {
           "$type": "color",
@@ -236,7 +192,7 @@
       "Vermittlung": {
         "badge-draft-bg": {
           "$type": "color",
-          "$value": "{Color.Blue (Primary).blue-700}",
+          "$value": "{Color.Primary.blue-700}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -251,7 +207,7 @@
       },
       "badge-icon-inverted": {
         "$type": "color",
-        "$value": "{Color.Other.white}",
+        "$value": "{Color.base.white}",
         "$description": "Icons within Tag Badges",
         "$extensions": {
           "com.figma": {
@@ -310,7 +266,7 @@
       "Disabled": {
         "badged-disabled-bg": {
           "$type": "color",
-          "$value": "{Color.Gray (Secondary).gray-100}",
+          "$value": "{Color.Secondary.gray-100}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -324,7 +280,7 @@
         },
         "badge-disabled-icon": {
           "$type": "color",
-          "$value": "{Color.Gray (Secondary).gray-700}",
+          "$value": "{Color.Secondary.gray-700}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -338,7 +294,7 @@
         },
         "badge-disabled-text": {
           "$type": "color",
-          "$value": "{Color.Gray (Secondary).gray-700}",
+          "$value": "{Color.Secondary.gray-700}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -398,7 +354,7 @@
       "Special": {
         "badge-inverted-bg": {
           "$type": "color",
-          "$value": "{Color.Blue (Primary).blue-700}",
+          "$value": "{Color.Primary.blue-700}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -412,7 +368,7 @@
         },
         "badge-inverted-icon": {
           "$type": "color",
-          "$value": "{Color.Other.white}",
+          "$value": "{Color.base.white}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -426,7 +382,7 @@
         },
         "badge-inverted-text": {
           "$type": "color",
-          "$value": "{Color.Other.white}",
+          "$value": "{Color.base.white}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -482,36 +438,6 @@
             }
           }
         }
-      },
-      "primary-original": {
-        "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "secondary": {
-        "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-700}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
-            ],
-            "codeSyntax": {}
-          }
-        }
       }
     },
     "Tab Bar": {
@@ -559,9 +485,9 @@
       }
     },
     "Border": {
-      "dark": {
+      "border-dark": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-300}",
+        "$value": "{Color.Secondary.gray-300}",
         "$description": "Dividing / Separating Lines, Accordion Section Divider",
         "$extensions": {
           "com.figma": {
@@ -573,9 +499,9 @@
           }
         }
       },
-      "medium": {
+      "border-medium": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-200}",
+        "$value": "{Color.Secondary.gray-200}",
         "$description": "for borders needed to enhance accessibility (eg. notifications)",
         "$extensions": {
           "com.figma": {
@@ -587,9 +513,9 @@
           }
         }
       },
-      "light": {
+      "border-light": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-100}",
+        "$value": "{Color.Secondary.gray-100}",
         "$description": "Dividing / Separating Lines, Accordion Content Divider, inactive borders",
         "$extensions": {
           "com.figma": {
@@ -601,9 +527,9 @@
           }
         }
       },
-      "selected": {
+      "border-selected": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$value": "{Color.Primary.blue-500}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -615,9 +541,9 @@
           }
         }
       },
-      "transparent": {
+      "border-transparent": {
         "$type": "color",
-        "$value": "{Color.Other.transparent}",
+        "$value": "{Color.base.transparent}",
         "$description": "only for Figma relevant",
         "$extensions": {
           "com.figma": {
@@ -633,7 +559,7 @@
     "Chips": {
       "icon-category": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
+        "$value": "{Color.base.black}",
         "$description": "Category icon",
         "$extensions": {
           "com.figma": {
@@ -647,7 +573,7 @@
       },
       "label": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
+        "$value": "{Color.base.black}",
         "$description": "Chip label",
         "$extensions": {
           "com.figma": {
@@ -662,7 +588,7 @@
       "Icon Special": {
         "inactiv-fill": {
           "$type": "color",
-          "$value": "{Color.Gray (Secondary).gray-200}",
+          "$value": "{Color.Secondary.gray-200}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -676,7 +602,7 @@
         },
         "inactiv-border": {
           "$type": "color",
-          "$value": "{Color.Gray (Secondary).gray-600}",
+          "$value": "{Color.Secondary.gray-600}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -690,7 +616,7 @@
         },
         "inactive-hover": {
           "$type": "color",
-          "$value": "{Color.Gray (Secondary).gray-600}",
+          "$value": "{Color.Secondary.gray-600}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -789,7 +715,7 @@
       },
       "icon-remove": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
+        "$value": "{Color.base.black}",
         "$description": "Remove icon",
         "$extensions": {
           "com.figma": {
@@ -803,7 +729,7 @@
       },
       "surface": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-100}",
+        "$value": "{Color.Secondary.gray-100}",
         "$description": "Chip fill color",
         "$extensions": {
           "com.figma": {
@@ -817,7 +743,7 @@
       },
       "surface-readonly": {
         "$type": "color",
-        "$value": "{Color.Other.white}",
+        "$value": "{Color.base.white}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -833,7 +759,7 @@
     "Controls": {
       "active": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$value": "{Color.Primary.blue-500}",
         "$description": "for all (selection) controls",
         "$extensions": {
           "com.figma": {
@@ -847,7 +773,7 @@
       },
       "hover": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-600}",
+        "$value": "{Color.Primary.blue-600}",
         "$description": "for all (selection) controls",
         "$extensions": {
           "com.figma": {
@@ -861,7 +787,7 @@
       },
       "pressed": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-700}",
+        "$value": "{Color.Primary.blue-700}",
         "$description": "for all (selection) controls",
         "$extensions": {
           "com.figma": {
@@ -903,7 +829,7 @@
       },
       "disabled": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-100}",
+        "$value": "{Color.Secondary.gray-100}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -919,7 +845,7 @@
       },
       "icon-inverted": {
         "$type": "color",
-        "$value": "{Color.Other.white}",
+        "$value": "{Color.base.white}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -933,7 +859,7 @@
       },
       "icon-disabled": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-600}",
+        "$value": "{Color.Secondary.gray-600}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -947,7 +873,7 @@
       },
       "switch-readonly": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-200}",
+        "$value": "{Color.Primary.blue-200}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -975,7 +901,7 @@
       },
       "icon-readonly": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
+        "$value": "{Color.base.black}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -991,7 +917,7 @@
     "Form Fields": {
       "border-active": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-600}",
+        "$value": "{Color.Secondary.gray-600}",
         "$description": "Active Form Fields",
         "$extensions": {
           "com.figma": {
@@ -1005,7 +931,7 @@
       },
       "border-hover": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-700}",
+        "$value": "{Color.Secondary.gray-700}",
         "$description": "Hover for Form Fields",
         "$extensions": {
           "com.figma": {
@@ -1019,7 +945,7 @@
       },
       "border-focused": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-800}",
+        "$value": "{Color.Secondary.gray-800}",
         "$description": "Focused Form Fields ",
         "$extensions": {
           "com.figma": {
@@ -1033,7 +959,7 @@
       },
       "border-disabled": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-200}",
+        "$value": "{Color.Secondary.gray-200}",
         "$description": "Disabled Form Fields",
         "$extensions": {
           "com.figma": {
@@ -1063,7 +989,7 @@
     "Key-Value Pairs": {
       "Label": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-600}",
+        "$value": "{Color.Secondary.gray-600}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1077,37 +1003,7 @@
       },
       "Value": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
-    },
-    "Modus": {
-      "modus-bg": {
-        "$type": "color",
-        "$value": "{Color.Warning.yellow-500}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "modus-icon": {
-        "$type": "color",
-        "$value": "{Color.Warning.yellow-800}",
+        "$value": "{Color.base.black}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1513,10 +1409,40 @@
         }
       }
     },
+    "Modus": {
+      "modus-bg": {
+        "$type": "color",
+        "$value": "{Color.Warning.yellow-500}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "modus-icon": {
+        "$type": "color",
+        "$value": "{Color.Warning.yellow-800}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
     "Navigation Bar": {
       "navbar-active": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-600}",
+        "$value": "{Color.Primary.blue-600}",
         "$description": "Default Background Navigation Bar",
         "$extensions": {
           "com.figma": {
@@ -1531,7 +1457,7 @@
       },
       "navbar-hover": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-700}",
+        "$value": "{Color.Primary.blue-700}",
         "$description": "Hover Navigation Bar",
         "$extensions": {
           "com.figma": {
@@ -1561,7 +1487,7 @@
       },
       "navbar-divider": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-200}",
+        "$value": "{Color.Primary.blue-200}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1592,7 +1518,7 @@
       },
       "surface-secondary": {
         "$type": "color",
-        "$value": "{Color.Other.white}",
+        "$value": "{Color.base.white}",
         "$description": "Background for containers, sidebars",
         "$extensions": {
           "com.figma": {
@@ -1637,7 +1563,7 @@
       },
       "surface-tertiary": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-100}",
+        "$value": "{Color.Primary.blue-100}",
         "$description": "Background color for tertiary buttons (hover)",
         "$extensions": {
           "com.figma": {
@@ -1652,7 +1578,7 @@
       },
       "surface-disabled": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-100}",
+        "$value": "{Color.Secondary.gray-100}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1667,7 +1593,7 @@
       },
       "surface-brand": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-600}",
+        "$value": "{Color.Primary.blue-600}",
         "$description": "Background for navigation and other decorative elements",
         "$extensions": {
           "com.figma": {
@@ -1684,7 +1610,7 @@
     "Text": {
       "text-headings": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
+        "$value": "{Color.base.black}",
         "$description": "Headings",
         "$extensions": {
           "com.figma": {
@@ -1698,7 +1624,7 @@
       },
       "text-clickable": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$value": "{Color.Primary.blue-500}",
         "$description": "Links, Breadcrumbs, Sorting",
         "$extensions": {
           "com.figma": {
@@ -1712,7 +1638,7 @@
       },
       "text-primary": {
         "$type": "color",
-        "$value": "{Color.Other.black}",
+        "$value": "{Color.base.black}",
         "$description": "Body-Text, default text color",
         "$extensions": {
           "com.figma": {
@@ -1726,7 +1652,7 @@
       },
       "text-secondary": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-600}",
+        "$value": "{Color.Secondary.gray-600}",
         "$description": "Key value pair labels",
         "$extensions": {
           "com.figma": {
@@ -1740,7 +1666,7 @@
       },
       "text-disabled-light": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-600}",
+        "$value": "{Color.Secondary.gray-600}",
         "$description": "Labels for disabled elements (on darker background)",
         "$extensions": {
           "com.figma": {
@@ -1754,7 +1680,7 @@
       },
       "text-disabled-dark": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-700}",
+        "$value": "{Color.Secondary.gray-700}",
         "$description": "Disabled input field text values",
         "$extensions": {
           "com.figma": {
@@ -1768,7 +1694,7 @@
       },
       "text-tertiary": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-700}",
+        "$value": "{Color.Primary.blue-700}",
         "$description": "Icon badge labels",
         "$extensions": {
           "com.figma": {
@@ -1782,7 +1708,7 @@
       },
       "text-inverted": {
         "$type": "color",
-        "$value": "{Color.Other.white}",
+        "$value": "{Color.base.white}",
         "$description": "Button labels, badge labels, menu items",
         "$extensions": {
           "com.figma": {
@@ -1796,7 +1722,7 @@
       },
       "text-light": {
         "$type": "color",
-        "$value": "{Color.Blue (Primary).blue-100}",
+        "$value": "{Color.Primary.blue-100}",
         "$description": "Footer text and links",
         "$extensions": {
           "com.figma": {
@@ -1884,7 +1810,7 @@
     "Placeholder": {
       "placeholder-light": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-100}",
+        "$value": "{Color.Secondary.gray-100}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1898,7 +1824,7 @@
       },
       "placeholder-dark": {
         "$type": "color",
-        "$value": "{Color.Gray (Secondary).gray-300}",
+        "$value": "{Color.Secondary.gray-300}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1929,6 +1855,52 @@
       "AMS Logo Red": {
         "$type": "color",
         "$value": "#ed1639",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  },
+  "Badge": {
+    "Warning": {
+      "bg": {
+        "$type": "color",
+        "$value": "{Color.Warning.yellow-100}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{Color.Warning.yellow-800}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{Color.Warning.yellow-800}",
         "$description": "",
         "$extensions": {
           "com.figma": {

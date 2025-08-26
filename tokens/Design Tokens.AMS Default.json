@@ -1,6 +1,21 @@
 {
   "Colors": {
     "Badge": {
+      "badge-primary": {
+        "$type": "color",
+        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
       "badge-secondary": {
         "$type": "color",
         "$value": "{Color.Blue (Primary).blue-700}",
@@ -467,6 +482,36 @@
             }
           }
         }
+      },
+      "primary-original": {
+        "$type": "color",
+        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{Color.Blue (Primary).blue-700}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
       }
     },
     "Tab Bar": {
@@ -514,7 +559,7 @@
       }
     },
     "Border": {
-      "border-dark": {
+      "dark": {
         "$type": "color",
         "$value": "{Color.Gray (Secondary).gray-300}",
         "$description": "Dividing / Separating Lines, Accordion Section Divider",
@@ -528,7 +573,21 @@
           }
         }
       },
-      "border-light": {
+      "medium": {
+        "$type": "color",
+        "$value": "{Color.Gray (Secondary).gray-200}",
+        "$description": "for borders needed to enhance accessibility (eg. notifications)",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "light": {
         "$type": "color",
         "$value": "{Color.Gray (Secondary).gray-100}",
         "$description": "Dividing / Separating Lines, Accordion Content Divider, inactive borders",
@@ -542,7 +601,7 @@
           }
         }
       },
-      "border-selected": {
+      "selected": {
         "$type": "color",
         "$value": "{Color.Blue (Primary).blue-500 (primary)}",
         "$description": "",
@@ -556,7 +615,7 @@
           }
         }
       },
-      "border-transparent": {
+      "transparent": {
         "$type": "color",
         "$value": "{Color.Other.transparent}",
         "$description": "only for Figma relevant",
@@ -772,6 +831,20 @@
       }
     },
     "Controls": {
+      "active": {
+        "$type": "color",
+        "$value": "{Color.Blue (Primary).blue-500 (primary)}",
+        "$description": "for all (selection) controls",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
       "hover": {
         "$type": "color",
         "$value": "{Color.Blue (Primary).blue-600}",

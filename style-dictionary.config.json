@@ -21,6 +21,13 @@
           "options": {
             "outputReferences": true
           }
+        },
+        {
+          "destination": "scss/tokens-map.scss",
+          "format": "scss/map-flat",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
     }
